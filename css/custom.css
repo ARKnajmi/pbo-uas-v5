@@ -1,0 +1,107 @@
+.navbar-inverse {
+    background-color: #79f4ff;
+    color: black;
+    border-color: #fff;
+}
+
+.custom-nav-col{
+    background-color: #3d3d3d;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 50px; /* Adjust the height as needed */
+}
+
+.nav-link .bi-cart {
+    font-size: 1.2rem; /* Adjust the size as needed */
+    position: relative;
+    margin-right: 5px; /* Optional: Add margin to separate the icon from text */
+}
+
+/* .navbar-brand {
+    color: #000!important;
+}
+.navbar-nav li a {
+    color: #000!important;
+    font-weight: bold;
+} */
+
+.bold-icon {
+    font-weight: 900; /* This won't affect the icon as it's a font */
+    font-size: 1.5em; /* Increasing size to give it a bolder look */
+    -webkit-text-stroke: 1px; /* Add a stroke to give it a bold effect */
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    color: #fff;
+    background-color: #fff;
+}
+
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensures images behave as block elements */
+    margin-left: auto; /* Center align images horizontally */
+    margin-right: auto;
+}
+
+.fimg {
+    width: 100%;
+    height: auto;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 30vh;
+    overflow-x: hidden;
+}
+.hero-feature{
+    height: 70vh;
+}
+.para{
+    height: 10vh;
+}
+.product_details{
+    margin-left: 2%;
+}
+
+.custom-search-input {
+    background-color: #ffffff; /* Change this to your desired color */
+    border-color: #6C757D; /* Optional: Change border color if needed */
+    color: #333; /* Optional: Change text color if needed */
+}
+
+.custom-search-input:focus {
+    background-color: #e0e0e0; /* Change this to your desired focus color */
+    border-color: #6C757D; /* Optional: Change focus border color if needed */
+    box-shadow: none; /* Remove the default blue shadow */
+}
+
+.form-control:focus,
+.btn:focus,
+.input-group-text:focus {
+    box-shadow: none !important;
+    border-color: #6C757D !important; /* Adjust this color to match your design */
+}
+
+.form-control {
+    border-right: 0;
+}
+
+.input-group-text {
+    background-color: rgb(178, 241, 255);
+    border-left: 0;
+    cursor: pointer;
+}
+
+.btncus{
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    /* CSS adjustments for smaller screens */
+    .table-responsive {
+        overflow-x: auto;
+    }
+}
