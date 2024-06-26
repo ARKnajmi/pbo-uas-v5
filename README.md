@@ -28,7 +28,7 @@ TokoTo is an e-commerce web application built using Bootstrap framework and Obje
 
 1. To clone the repository, run the following command in your terminal:
    ```bash
-   git clone https://github.com/your-username/tokoto.git](https://github.com/ARKnajmi/pbo-uas-v5.git
+   git clone https://github.com/ARKnajmi/pbo-uas-v5.git
    ```
    
 2. Navigate to the project directory:
